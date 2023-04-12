@@ -1,0 +1,8 @@
+{
+    "name": "@packages/utils",
+    "main": "index.js",
+    "type": "module",
+    "dependencies": {
+        "pad-left": "^2.1.0"
+    }
+}

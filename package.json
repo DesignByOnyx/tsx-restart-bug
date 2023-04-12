@@ -1,0 +1,15 @@
+{
+  "name": "tsx-restart-ignore-bug",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "start": "cd services/worker && npm run watch"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsx": "^3.12.6"
+  }
+}

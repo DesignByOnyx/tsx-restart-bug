@@ -1,0 +1,11 @@
+{
+    "name": "@services/worker",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "watch": "tsx watch --ignore **/packages/** --clear-screen=false index.ts"
+    },
+    "dependencies": {
+        "@packages/utils": "*"
+    }
+}
