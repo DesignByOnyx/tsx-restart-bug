@@ -8,3 +8,5 @@ const timer = setTimeout(() => {}, 99999999);
         clearTimeout(timer);
     });
 });
+
+console.log('Program started... please modify a node_module (touch node_modules/pad-left/index.js).')
