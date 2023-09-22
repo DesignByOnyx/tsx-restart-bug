@@ -1,11 +1,10 @@
 {
     "name": "@services/worker",
-    "main": "dist/index.js",
     "type": "module",
     "scripts": {
-        "watch": "tsx watch --ignore **/packages/** --clear-screen=false index.ts"
+        "watch": "tsx watch --clear-screen=false index.ts"
     },
     "dependencies": {
-        "@packages/utils": "*"
+        "pad-left": "^2.1.0"
     }
 }
